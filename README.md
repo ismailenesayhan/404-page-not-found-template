@@ -3,12 +3,14 @@
 
 
 ```html
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Aradığınız sayfaya ulaşılamıyor, Lütfen bilgi işlem departmanınız ile iletişime geçiniz ">
+    <meta name="description" content="404 Page Not Found, Please contact your IT department">
+
     <title>Aradığınız sayfaya ulaşılamıyor - 123456789</title>
     <link
       rel="shortcut icon"
@@ -17,14 +19,24 @@
   </head>
   <body>
     <div class="error">
-      <img width="250" src="https://cdn.erciyes.com/logos/gumussuyu.png" />
-      <h1 class="error__header">Aradığınız sayfaya ulaşılamıyor</h1>
+      <svg
+        width="80"
+        height="80"
+        xmlns="http://www.w3.org/2000/svg"
+        xml:space="preserve"
+        viewBox="0 0 26.2 27.5"
+      >
+        <path
+          d="m26.2 13-8.7-8.4-2 2.1L8.4 0 0 8.7l5.3 5.1-5 5.2L9 27.5l7.1-7.4 1.7 1.6 8.4-8.7zM8.5 2.7l5.7 5.5-3.8 3.8-1-1-.7-.6-2 2.1-4-3.8 5.8-6zm6.3 16.1-5.7 6L3 19l3.7-3.9 2-2.1.3.3.8.7.6.6 2.8 2.7 1.6 1.5zm-.2-2.8-2.8-2.7 5.8-6 6 5.8-5.8 6-3.2-3.1z"
+        />
+      </svg>
+      <h1 class="error__header">404 Page Not Found</h1>
       <p class="error__description">
-        Lütfen bilgi işlem departmanınız ile iletişime geçiniz
+        Please contact your IT department
       </p>
       <hr class="error__line" />
       <p class="error__support-code">
-        Talep Numarası: <a class="error__link" href="#">123456789</a>
+        Request Number: <a class="error__link" href="#">123456789</a>
       </p>
     </div>
     <div class="footer">
@@ -32,19 +44,15 @@
         width="30"
         height="30"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 41.5 41.5"
+        xml:space="preserve"
+        viewBox="0 0 26.2 27.5"
       >
         <path
-          d="M36.5 8C31 1.1 21.4-1.3 13.2 2 5.2 5.2-.1 13.6.6 22.2c.7 8.2 6.3 15.4 14.1 17.9 8.5 2.7 17.9-.7 22.8-8 5-7.3 4.6-17.3-1-24.1z"
-          fill="#fff"
-        />
-        <path
-          d="M38 32.4c5.1-7.5 4.6-17.7-1.1-24.8C31.2.6 21.4-1.9 13 1.4 4.7 4.8-.6 13.4.1 22.3c.7 8.4 6.4 15.8 14.5 18.3 8.6 2.7 18.3-.7 23.4-8.2zm-3.5 2.1c-4.7 4.7-11.5 6.6-17.9 5.2-3.2-.7-6.2-2.2-8.7-4.4-.7-.6-1.3-1.3-1.9-1.9l-.9-1.2c-.1-.1-.4-.4-.4-.5 0-.2 9.5-11.3 11.8-14 .9-1 2.1-2.4 3.4-1.1.6.5.9 1.3 1.4 2 .5.7 1.1 1.4 1.4 2.1.3.6.1.9-.2 1.4-.8 1.4-6.1 10.9-8 14.2 3.1-4.1 6.2-8.3 9.2-12.4 1-1.4 2.8-4.7 4.8-2.7 1.7 1.7 8.4 10 8.4 10.2 0 .3-.6.9-.7 1.1-.5.7-1.1 1.3-1.7 2z"
-          fill="#0082ca"
+          d="m26.2 13-8.7-8.4-2 2.1L8.4 0 0 8.7l5.3 5.1-5 5.2L9 27.5l7.1-7.4 1.7 1.6 8.4-8.7zM8.5 2.7l5.7 5.5-3.8 3.8-1-1-.7-.6-2 2.1-4-3.8 5.8-6zm6.3 16.1-5.7 6L3 19l3.7-3.9 2-2.1.3.3.8.7.6.6 2.8 2.7 1.6 1.5zm-.2-2.8-2.8-2.7 5.8-6 6 5.8-5.8 6-3.2-3.1z"
         />
       </svg>
-      <a class="footer__link" href="https://www.erciyesanadolu.com">
-        www.erciyesanadolu.com
+      <a class="footer__link" href="https://www.ismailenesayhan.com">
+        www.ismailenesayhan.com
       </a>
     </div>
 
@@ -113,7 +121,6 @@
         color: #747474;
         text-decoration: none;
         margin-top: 10px;
-
       }
       @media only screen and (max-width: 600px) {
         body {
@@ -130,5 +137,6 @@
     </style>
   </body>
 </html>
+
 
 ```
